@@ -16,9 +16,7 @@ class MockMailer extends MailerClient {
     email.to.foreach(to => Logger.info(s"to: $to"))
     email.cc.foreach(cc => Logger.info(s"cc: $cc"))
     email.bcc.foreach(bcc => Logger.info(s"to: $bcc"))
-    email.replyTo.foreach(replyTo => Logger.info(s"replyTo: $replyTo"))
     email.attachments.foreach(attachment => Logger.info(s"attachment: $attachment"))
-    email.headers.foreach(header => Logger.info(s"header: $header"))
     ""
   }
 }

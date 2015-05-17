@@ -10,7 +10,7 @@ Depend on the library:
 "com.zlangbert" %% "play-mailgun" % "0.1.0"
 ```
 
-add your domain and api key to application your config:
+add your domain and api key to your application config:
  
 ```
 mailer {

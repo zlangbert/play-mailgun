@@ -2,6 +2,8 @@ name := "play-mailgun"
 
 organization := "com.zlangbert"
 
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
+
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play" % "2.4.0-RC3" % "provided",
   "com.typesafe.play" %% "play-json" % "2.4.0-RC3" % "provided",
